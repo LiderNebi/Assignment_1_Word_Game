@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+/* main.css */
+
+/* Universal Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center; /* Center align the content */
+}
+
+#storyArea {
+  margin: 20px;
+  padding: 10px;
+  border: 2px dashed #007bff; /* A dashed border for the story display area */
+  min-height: 50px; /* Gives the div a minimum height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+#noun1Button {
+  background-color: #ff6347;
+}
+#verbButton {
+  background-color: #ffdb58;
+}
+#adjectiveButton {
+  background-color: #90ee90;
+}
+#noun2Button {
+  background-color: #add8e6;
+}
+#placeButton {
+  background-color: #ffb6c1;
+}
+#generateStoryButton {
+  background-color: #9370db;
+}
+#speakButton {
+  background-color: #3cb371;
+}
+#resetButton {
+  background-color: #b0c4de;
+}
